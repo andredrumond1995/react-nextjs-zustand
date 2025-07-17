@@ -13,7 +13,7 @@ export const useUserStore = create<UserState>()(
       setName: (name) => set({ name }),
     }),
     {
-      name: 'user-store', // chave do localStorage
+      name: 'user-store',
     }
   )
 ); 

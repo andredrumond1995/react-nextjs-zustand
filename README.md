@@ -44,7 +44,7 @@ You **must** have the backend running locally for this app to work:
 ```bash
 git clone https://github.com/andredrumond1995/nestjs-mongoose-clean-arch.git
 cd nestjs-mongoose-clean-arch
-docker-compose up --build
+docker compose up --build
 ```
 
 The API will be available at: `http://localhost:3000/v1/todos`
@@ -58,7 +58,7 @@ npm install
 npm run dev
 ```
 
-Acesse: [http://localhost:3000](http://localhost:3000)
+Open: [http://localhost:3001](http://localhost:3001)
 
 ---
 
@@ -71,9 +71,9 @@ Acesse: [http://localhost:3000](http://localhost:3000)
 
 ## 📚 API Reference
 
-Acesse a documentação do backend para detalhes dos endpoints: [nestjs-mongoose-clean-arch](https://github.com/andredrumond1995/nestjs-mongoose-clean-arch)
+See the backend documentation for endpoint details: [nestjs-mongoose-clean-arch](https://github.com/andredrumond1995/nestjs-mongoose-clean-arch)
 
-Principais endpoints:
+Main endpoints:
 - `GET /v1/todos` — List todos (OData v4: `$filter`, `$top`, `$skip`, etc)
 - `POST /v1/todos` — Create todo
 - `PUT /v1/todos/:id` — Update todo
@@ -95,7 +95,7 @@ Principais endpoints:
 
 ![Home page screenshot](public/screenshots/home-screenshot.png)
 
-> Tela inicial do Test App com Next.js, Zustand e Tailwind CSS.
+> Home screen of the Test App with Next.js, Zustand, and Tailwind CSS.
 
 ---
 

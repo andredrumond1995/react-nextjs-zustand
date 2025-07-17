@@ -2,13 +2,11 @@
 import { useState } from "react";
 import { useUserStore } from "@/stores/userStore";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 
 export default function Home() {
   const { name, setName } = useUserStore();
   const [input, setInput] = useState("");
   const [showChangeUser, setShowChangeUser] = useState(false);
-  const router = useRouter();
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
